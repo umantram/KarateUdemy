@@ -11,7 +11,7 @@ Feature: Articles
         * set articleRequestBody.article.body = dataGenerator.getRandomArticleValues().body
 
 
-    Scenario: Create a new Article
+    Scenario: Create a new Article karate
         Given path 'articles'
         # And request {"article": {"title": "test 12334 bla2123","description": "test","body": "test","tagList": []}}
         And request articleRequestBody
